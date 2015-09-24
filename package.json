@@ -1,0 +1,33 @@
+{
+  "name": "core-jsdk",
+  "version": "0.0.0",
+  "description": "A platform-agnostic class library for Javascript applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/storjarn/core-jsdk.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "classlib",
+    "framework",
+    "www",
+    "sdk"
+  ],
+  "author": "Christopher Maples <cmaples77@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/storjarn/core-jsdk/issues"
+  },
+  "dependencies": {
+    "ee-class": "git://github.com/storjarn/ee-class",
+    "commander": "~2.8.1",
+    "lodash": "~3.10.1",
+    "moment": "~2.10.6",
+    "grunt": "~0.4.5"
+  }
+}
